@@ -8,7 +8,7 @@
   
   <title itemprop="name">Hello World | Hexo</title>
   
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Nastsuki-Kaede/Blog-Resources/icon/favicon.ico">
+    <link rel="shortcut icon" href="/images/sakura.ico">
   
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -544,7 +544,7 @@ gitalk.render('gitalk-container')
                 <script>
                 var now = new Date(); 
                 function createtime() { 
-                      var grt= new Date("06/22/2021 00:00:00");//在此处修改你的建站时间
+                      var grt= new Date("Mon Jun 21 2021 08:00:00 GMT+0800 (中国标准时间)");//在此处修改你的建站时间
                       now.setTime(now.getTime()+250); 
                       days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
                       hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
@@ -978,5 +978,5 @@ gitalk.render('gitalk-container')
   <!-- left side bar -->
 
   <script src="//cdn.jsdelivr.net/gh/Natsuki-Kaede/Fly-Engine@latest/fly-engine.js" type="module"></script>
- </body>
+ <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
