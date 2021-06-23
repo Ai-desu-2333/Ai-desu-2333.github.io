@@ -66,7 +66,7 @@
     /*End of Initial Variables*/
   </script>
   <script type="text/javascript">
-    var bg = "https://img.xjh.me/random_img.php,https://api.btstu.cn/sjbz/api.php,https://www.dmoe.cc/random.php,https://img.paulzzh.tech/touhou/random,https://www.dmoe.cc/random.php,https://api.yimian.xyz/img?type=moe&amp;size=1920x1080".split(",");
+    var bg = "https://img.xjh.me/random_img.php,https://api.btstu.cn/sjbz/api.php,https://www.dmoe.cc/random.php,https://img.paulzzh.tech/touhou/random,https://www.dmoe.cc/random.php,https://api.yimian.xyz/img?type=moe&amp;size=1920x1080,https://api.flymc.cc/cover.php".split(",");
     var bgindex = Math.floor(Math.random()*bg.length);
     if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
       alert('朋友，IE浏览器未适配哦~');
@@ -557,7 +557,7 @@
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..."/>
+            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -569,10 +569,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
-            // PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            POSTS: '文章',
+            // PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
