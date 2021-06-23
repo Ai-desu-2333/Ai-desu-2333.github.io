@@ -10135,3 +10135,9 @@ i.iconfont.js-toggle-search.iconsearch:hover,
 .hljs-ln-n:before {
     content: attr(data-line-number)
 }
+.hljs-ln-line:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+.hljs-ln-line.hljs-ln-n:hover{
+    background-color: rgba(0,0,0,0) !important;
+}
